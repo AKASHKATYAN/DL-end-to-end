@@ -1,0 +1,33 @@
+# Virtual Environments
+myvenv/
+venv/
+env/
+.env/
+bin/
+lib/
+share/
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data and Models (Avoid pushing heavy datasets or trained weights)
+*.zip
+*.tar.gz
+*.csv
+*.h5
+*.pth
+*.pkl
+*.model
+# If you have a specific data folder, ignore it:
+data/
+
+# IDE/System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment variables (Secrets/Keys)
+.env
